@@ -1,0 +1,59 @@
+#SnakeApp {
+	width: 450px;
+	height: 500px;
+}
+#SnakeApp #snakeContainer { 
+z-index:99999999;
+position: absolute;
+margin: 0 auto;
+padding: 0;
+background: blue;
+width: 450px; 
+height: 450px; 
+z-index:99999999;
+outline: 2px solid #444;
+}
+
+#SnakeApp div#snakeContainer .bigText {
+	font-family: Impact;
+	font-size: 20pt;
+	color: black;
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#SnakeApp div#snakeBar {
+	width: 100%;
+	height: 30px;
+	font-family: Impact;
+	font-size: 15pt;
+	color: black;
+	margin: 0 auto;
+	display: block;
+}
+#SnakeApp div#snakeBar div {
+	float: left;
+	width: 40%;
+}
+ #snakePieces {
+	width: 450px;
+	height: 450px;
+}
+#SnakeApp div#snakeContainer .snakeBody { 
+z-index:99999999; 
+width: 15px;
+height: 15px;
+-webkit-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
+position: relative; 
+background:yellow;
+}
+#SnakeApp div#snakeContainer .snakeBody:first-child {
+background: red;
+}
+#SnakeApp div#snakeContainer #snakeBait { 
+width: 15px; height: 15px; position: absolute; top: 0; left:0; background: white; display: none; 
+}
